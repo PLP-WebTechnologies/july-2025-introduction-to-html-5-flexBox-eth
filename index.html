@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about accessible, SEO-friendly web design using HTML5 semantic tags.">
+  <meta name="author" content="Tsegaye Girma">
+  <title>Accessible & SEO-Friendly Web Page</title>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Web Essentials</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about" title="Learn more about us">About</a></li>
+        <li><a href="#articles" title="Read our articles">Articles</a></li>
+        <li><a href="#contact" title="Get in touch">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This page is designed using HTML5 semantic tags to demonstrate best practices in accessibility and SEO. It’s clean, readable, and structured to assist both users and search engines.</p>
+    </section>
+
+    <section id="articles" aria-labelledby="articles-heading">
+      <h2 id="articles-heading">Featured Articles</h2>
+
+      <article aria-labelledby="article1-heading">
+        <h3 id="article1-heading">Why Semantic HTML Matters</h3>
+        <p>Semantic HTML helps define the structure of your content in a meaningful way. It enhances accessibility and improves your SEO by making the purpose of content clearer to both humans and machines.</p>
+      </article>
+
+      <article aria-labelledby="article2-heading">
+        <h3 id="article2-heading">Accessibility in Web Design</h3>
+        <p>Good web design is inclusive. Using tags like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;nav&gt;</code>, and ARIA attributes makes your website usable for people with disabilities and compliant with standards.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <p>If you have questions or suggestions, feel free to <a href="mailto:info@example.com" title="Send us an email">email us</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Web Essentials. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
